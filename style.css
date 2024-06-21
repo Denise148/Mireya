@@ -4,8 +4,38 @@
 /*font-family: "Barlow", sans-serif;
   font-weight: 100;
   font-style: normal;*/
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+root {
+  --primary-color: ;
+  --h-font: "Poppins", sans-serif;
+  --p-font: "Barlow", sans-serif;
+}
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--h-font);
+  font-weight: bold;
   font-style: normal;
+}
+h1 {
+  font-size: 92px;
+}
+p {
+  font-family: var(--p-font);
+}
+.hero {
+  text-align: center;
+  margin-top: 30px;
+  padding: 150px 20px;
+}
+.btn-danger {
+  border-radius: 8px;
+  font-size: 24px;
+  padding: 15px 15px;
+  margin-top: 15px;
 }
