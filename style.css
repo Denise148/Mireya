@@ -10,12 +10,12 @@ root {
   --p-font: "Barlow", sans-serif;
 }
 body {
-  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  background: linear-gradient(120deg, #eed37b 0%, #efb2a1 100%);
   text-align: center;
   margin: 0 auto;
   max-width: 1200px;
   margin-bottom: 50px;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 h1,
 h2,
@@ -72,13 +72,13 @@ img {
   padding: 20px;
 }
 .main-dishes {
-  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background: linear-gradient(to top, #ecd2c8 0%, #bfe4f6 100%);
   border-radius: 10px;
   padding: 30px 30px;
   margin-bottom: 30px;
 }
 .sweets {
-  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background: linear-gradient(to top, #ecd2c8 0%, #bfe4f6 100%);
   padding: 30px 30px;
   margin-top: 30px;
 }
@@ -88,7 +88,7 @@ img {
 .sweets p {
   color: red;
 }
-@media (max-width 960px) {
+@media (max-width 900px) {
   .sweets {
     padding: 0;
     text-align: center;
@@ -101,6 +101,8 @@ img {
 .mom {
   max-width: 200px;
   margin-top: 30px;
+  border: solid 1px black;
+  border-radius: 8px;
 }
 .about-p {
   font-size: 36px;
