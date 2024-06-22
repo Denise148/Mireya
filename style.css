@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   max-width: 1200px;
   margin-bottom: 50px;
+  margin-top: 200px;
 }
 h1,
 h2,
@@ -53,6 +54,13 @@ img {
   padding: 15px 15px;
   margin-top: 15px;
 }
+.btn-outline-secondary {
+  color: rgb(122, 114, 114);
+  margin-bottom: 100px;
+  font-size: 20px;
+  padding: 10px 10px;
+  margin-top: 0;
+}
 .desserts {
   font-size: 24px;
   margin: 30px 0;
@@ -89,4 +97,13 @@ img {
     padding: 0;
     text-align: center;
   }
+}
+.mom {
+  max-width: 200px;
+  margin-top: 30px;
+}
+.about-p {
+  font-size: 36px;
+  margin-top: 150px;
+  padding: 50px;
 }
