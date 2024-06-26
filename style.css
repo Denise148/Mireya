@@ -9,13 +9,19 @@ root {
   --h-font: "Poppins", sans-serif;
   --p-font: "Barlow", sans-serif;
 }
+.bg-color {
+  background-color: linear-gradient(120deg, #eed37b 0%, #efb2a1 100%);
+}
+.nav-item {
+  padding: 0 30px;
+}
 body {
   background: linear-gradient(120deg, #eed37b 0%, #efb2a1 100%);
   text-align: center;
   margin: 0 auto;
   max-width: 90%;
   margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 h1,
 h2,
@@ -36,14 +42,16 @@ img {
   padding: 20px;
   border-radius: 8px;
 }
+.other-pages {
+  margin-top: 70px;
+}
 .content h3 {
   margin: 20px 0;
   font-family: var(--h-font);
 }
 .hero {
   text-align: center;
-  margin-top: 30px;
-  padding: 150px 20px;
+  padding: 100px 20px;
 }
 .btn-outline-danger {
   border: solid 2px;
