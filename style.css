@@ -13,9 +13,9 @@ body {
   background: linear-gradient(120deg, #eed37b 0%, #efb2a1 100%);
   text-align: center;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 90%;
   margin-bottom: 50px;
-  margin-top: 150px;
+  margin-top: 130px;
 }
 h1,
 h2,
@@ -35,6 +35,10 @@ img {
   margin: 30px;
   padding: 20px;
   border-radius: 8px;
+}
+.content h3 {
+  margin: 20px 0;
+  font-family: var(--h-font);
 }
 .hero {
   text-align: center;
@@ -75,12 +79,23 @@ img {
   background: linear-gradient(to top, #ecd2c8 0%, #bfe4f6 100%);
   border-radius: 10px;
   padding: 30px 30px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+}
+.main-dishes-page {
+  background: linear-gradient(to top, #ecd2c8 0%, #bfe4f6 100%);
+  border-radius: 10px;
+  margin-top: 80px;
+  padding: 30px 30px;
 }
 .sweets {
   background: linear-gradient(to top, #ecd2c8 0%, #bfe4f6 100%);
   padding: 30px 30px;
-  margin-top: 30px;
+  margin-top: 60px;
+}
+.sweets-page {
+  background: linear-gradient(to top, #ecd2c8 0%, #bfe4f6 100%);
+  padding: 30px 30px;
+  margin-top: 80px;
 }
 .main-dishes p {
   color: red;
@@ -98,6 +113,10 @@ img {
     text-align: center;
   }
 }
+.container {
+  max-width: %;
+  margin: 0 auto;
+}
 .mom {
   max-width: 200px;
   margin-top: 30px;
@@ -108,4 +127,7 @@ img {
   font-size: 36px;
   margin-top: 150px;
   padding: 50px;
+}
+.description {
+  color: red;
 }
