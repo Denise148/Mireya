@@ -25,13 +25,17 @@ body {
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--h-font);
   font-weight: bold;
   font-style: normal;
 }
 h1 {
   font-size: 92px;
+}
+h4 {
+  text-align: left;
 }
 p {
   font-family: var(--p-font);
@@ -41,6 +45,9 @@ img {
   margin: 30px;
   padding: 20px;
   border-radius: 8px;
+}
+li {
+  text-align: left;
 }
 .other-pages {
   margin-top: 70px;
