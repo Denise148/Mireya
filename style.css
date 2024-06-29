@@ -35,7 +35,7 @@ h1 {
   font-size: 92px;
 }
 h4 {
-  text-align: left;
+  text-align: center;
 }
 p {
   font-family: var(--p-font);
@@ -48,6 +48,9 @@ img {
 }
 li {
   text-align: left;
+}
+footer {
+  margin-top: 80px;
 }
 .other-pages {
   margin-top: 70px;
@@ -124,6 +127,11 @@ li {
     text-align: center;
   }
   .recipes {
+    padding: 0;
+    text-align: center;
+  }
+  h3,
+  h4 {
     padding: 0;
     text-align: center;
   }
