@@ -30,6 +30,7 @@ h4 {
   font-family: var(--h-font);
   font-weight: bold;
   font-style: normal;
+  text-align: center;
 }
 h1 {
   font-size: 92px;
@@ -40,6 +41,7 @@ h4 {
 p {
   font-family: var(--p-font);
   line-height: 2;
+  text-align: center;
 }
 img {
   margin: 30px;
